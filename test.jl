@@ -7,6 +7,12 @@
 using Markdown
 using InteractiveUtils
 
+# ╔═╡ 66200939-1f34-4974-8f3a-d7f6d9243e84
+T_min = 273.15
+
+# ╔═╡ 34169690-a5d4-4d7e-9219-a2bd5df8c0f6
+using PlotlyJS
+
 # ╔═╡ 33f972a3-b343-49b2-8dce-53ecc7bc72aa
 begin
 	using PlotlyJS
@@ -46,12 +52,6 @@ begin
 	
 end
 
-# ╔═╡ 66200939-1f34-4974-8f3a-d7f6d9243e84
-T_min = 273.15
-
-# ╔═╡ 34169690-a5d4-4d7e-9219-a2bd5df8c0f6
-using PlotlyJS
-
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
@@ -67,7 +67,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.8.2"
 manifest_format = "2.0"
-project_hash = "64d471d1471bbe2b25aca3dc21062d2ec801a029"
+project_hash = "097e75c3929a4362e09f4faac4624710b5c1a355"
 
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
@@ -225,9 +225,9 @@ uuid = "3587e190-3f89-42d0-90ee-14403ec27112"
 version = "0.1.8"
 
 [[deps.IrrationalConstants]]
-git-tree-sha1 = "630b497eafcc20001bba38a4651b327dcfc491d2"
+git-tree-sha1 = "3868cac300a188a7c3a74f9abd930e52ce1a7a51"
 uuid = "92d709cd-6900-40b7-9082-c6be49f344b6"
-version = "0.2.2"
+version = "0.2.1"
 
 [[deps.IteratorInterfaceExtensions]]
 git-tree-sha1 = "a3f24677c21f5bbe9d2a714f95dcd58337fb2856"
