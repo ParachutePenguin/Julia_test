@@ -38,11 +38,18 @@ function test()
 	return ncs, bs, ls
 end
 
-# ╔═╡ 57dedf8a-3de9-431b-8331-708efc636b7a
-ncs,bs，ls = test()
+# ╔═╡ 2b302cec-6f79-49fe-8bca-61e1894dcd42
+begin
+	result = test()
+	ncs,bs,ls = result
+end
+
+# ╔═╡ ac485f1c-7c59-4922-8781-c23b0c0a04a9
+ls
 
 # ╔═╡ Cell order:
 # ╠═233e440a-7444-47bf-a389-bd234c710306
 # ╠═cdcbbd3e-bb1f-11ed-3955-c34a1a47031e
 # ╠═a6070107-90ef-4cc0-86bd-3ef0f113d887
-# ╠═57dedf8a-3de9-431b-8331-708efc636b7a
+# ╠═2b302cec-6f79-49fe-8bca-61e1894dcd42
+# ╠═ac485f1c-7c59-4922-8781-c23b0c0a04a9
