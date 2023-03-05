@@ -44,12 +44,21 @@ begin
 	ncs,bs,ls = result
 end
 
-# ╔═╡ ac485f1c-7c59-4922-8781-c23b0c0a04a9
-ls
+# ╔═╡ c77c0a5b-7951-4d57-81d7-467766ebb895
+begin
+	using Pkg
+	Pkg.add("Plots")
+	using Plots
+	
+	plot(ncs, bs, xscale=:log10, yscale=:log10, markershape=:circle, 
+	label="Basel", xlabel="cutoff num", ylabel="relative error")
+	plot!(ncs, ls, xscale=:log10, yscale=:log10, markershape=:star5, 
+	label="Leibniz", xlabel="cutoff num", ylabel="relative error")
+end
 
 # ╔═╡ Cell order:
 # ╠═233e440a-7444-47bf-a389-bd234c710306
 # ╠═cdcbbd3e-bb1f-11ed-3955-c34a1a47031e
 # ╠═a6070107-90ef-4cc0-86bd-3ef0f113d887
 # ╠═2b302cec-6f79-49fe-8bca-61e1894dcd42
-# ╠═ac485f1c-7c59-4922-8781-c23b0c0a04a9
+# ╠═c77c0a5b-7951-4d57-81d7-467766ebb895
